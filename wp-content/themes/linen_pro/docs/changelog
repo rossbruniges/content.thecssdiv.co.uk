@@ -1,0 +1,10 @@
+== Changelog ==
+
+= 1.1.1 =
+* Fixed SQL error when Featured Slider enabled with no sticky posts and a static front page.
+
+= 1.1 =
+* Replaced the old logo uploader with a faster version that uses WP core
+* Strip tags from text in the featured slider to prevent breakage
+* Hide featured slider unless 2 sticky posts are present
+* Upgrade to the latest version of Slides (1.0.2)

@@ -1,0 +1,55 @@
+/*
+Theme Name: 	thecssdiv.co.uk
+Author: 	Ross Bruniges
+Description: 	Linen_pro theme with additional content containers
+Template:	linen_pro
+*/
+
+@import url("../linen_pro/style.css");
+
+.widget p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+div.beer {
+    margin-left: 0;
+}
+
+div.photo_frame {
+    float:left;
+    width: 375px;
+    margin: 0 20px 20px 0;
+    font-style: italic;    
+}
+div.photo_frame img {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+#sidebar .widget ul.blogroll {
+    margin-bottom: 1em;
+}
+
+.flickr-footer {
+    overflow: hidden;
+    zoom: 1;
+}
+.flickr_badge_image {
+    float: left;
+}
+#flickr_badge_image1,
+#flickr_badge_image2 {
+    margin-bottom: 15px;
+}
+#flickr_badge_image1,
+#flickr_badge_image3 {
+    margin-right: 20px;
+}
+.footer-column {
+	width: 200px;
+}
+#us_widget .us_h,
+#us_widget .us_p {
+	width: auto !important;
+}

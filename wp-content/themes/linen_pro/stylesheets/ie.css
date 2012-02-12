@@ -1,0 +1,3 @@
+/* clear the floats for all our IE friends*/
+.clear, li.comment { zoom: 1; }
+.post-date { background-color: #333; }
