@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes( 'html' ) ?>>
 <head>
+    <meta name="google-site-verification" content="liliVOhiK30A6kNP7sOSFpaVSJjh3YrAz_-6YqfoWhE" />
 	<?php if ( is_front_page() ) : ?>
 		<title><?php bloginfo( 'name' ); ?></title>
 	<?php elseif ( is_404() ) : ?>
