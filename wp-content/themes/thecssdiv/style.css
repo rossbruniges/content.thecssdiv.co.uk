@@ -82,6 +82,9 @@ div.photo_frame img {
 #us_widget .us_p {
 	width: auto !important;
 }
+.twitter-section {
+    margin-bottom: 1em;
+}
 .alert {
     font-size: 1.3em;
     padding: 8px 14px;

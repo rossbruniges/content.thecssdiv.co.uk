@@ -14,7 +14,9 @@
 				<div class="twitter-section">
                     <h2>Latest tweet</h2>
                 	<p><?php aktt_latest_tweet(); ?></p>
-                    <p>For more of the same and to be the first to hear what I am up to <a href="http://twitter.com/rossbruniges">follow me on twitter</a>.</p>
+                    <p>For more of the same and to be the first to hear what I am up to follow me on twitter.</p>
+                    <a href="https://twitter.com/rossbruniges" class="twitter-follow-button" data-show-count="false">Follow @rossbruniges</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 			</div>
 				<?php endif; ?>
 					<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'footer_3' ) ) : ?>
