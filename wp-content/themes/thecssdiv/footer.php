@@ -22,7 +22,7 @@
 					<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'footer_3' ) ) : ?>
 					<h2 class="widgettitle"><?php _e( 'Find me at...', 'linen' ); ?></h2>
 					<script src="http://cdn.lanyrd.net/badges/person-v1.min.js"></script>
-					<div class="lanyrd-target-splat"><a href="http://lanyrd.com/people/rossbruniges/" class="lanyrd-splat lanyrd-number-3 lanyrd-context-future" rel="me">My conferences on Lanyrd</a></div>
+					<div class="lanyrd-target-splat"><a href="http://lanyrd.com/people/rossbruniges/" class="lanyrd-splat lanyrd-number-2 lanyrd-context-future lanyrd-type-tracking" rel="me">My conferences on Lanyrd</a></div>
 				<?php endif; ?>
 
 			</div>
