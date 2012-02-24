@@ -43,7 +43,9 @@
                     	?>
                     </div>
                     <p>My other passion is food, fine dining and eating out. When I'm not blogging about web development I'll likely be writing about food over at <a href="http://www.ross-eats.co.uk">ross-eats</a> and posting photos like those above to flickr.</p>
-                <p>If you're in London and looking for a good place to eat check out <a href="http://www.ross-eats.co.uk">ross-eats</a> and follow <a href="http://www.twitter.com/ross_eats">@ross_eats on twitter</a>.</p>
+                <p>If you're in London and looking for a good place to eat check out <a href="http://www.ross-eats.co.uk">ross-eats</a></p>
+ <a href="https://twitter.com/ross_eats" class="twitter-follow-button" data-show-count="false">Follow @ross_eats</a>
+
 				<?php endif; ?>
 
 			</div>

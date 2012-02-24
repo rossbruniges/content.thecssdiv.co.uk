@@ -18,7 +18,9 @@
 						the_post_thumbnail( 'medium', array( 'class' => 'single-post-thm alignleft' ) );
 					} ?>
 					<?php the_content(); ?>
-					<?php edit_post_link( __( 'Edit this', 'linen' ), '<p>', '</p>' ); ?>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-text="Well this was good enough to share" data-via="rossbruniges">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    <?php edit_post_link( __( 'Edit this', 'linen' ), '<p>', '</p>' ); ?>
 					<?php wp_link_pages(); ?>
 				</div><!--end entry-->
 				<div class="post-footer clear">
