@@ -117,6 +117,19 @@ Opera, etc. In order to use the widget you have no choice but to update to IE8 o
 
 == Changelog ==
 
+= 0.9.4 =
+* Fixed an issue where the SQL backup was not being uploaded to Dropbox
+* Fixed an issue where the default backup dir was not being displayed if WP_CONTE_DIR is not set
+* Fixed an issue where bakups where not stopping correctly
+
+= 0.9.3 =
+* Moved settings and monitor to their own paret menu
+* Database bacups are now removed after they are uploaded to Dropbox
+* Fixed free space issue
+* Made it so non standard WP_CONTENT_DIR is backed up
+* Lots of other bug fixes and performance updates
+* Fixed a bug in the file exclusion list that was preventing folders from being marked as partial
+
 = 0.9.2 =
 * Fixed issues when open basedir restriction is on
 * Removed DISABLE_WP_CRON check for users who use a real cron
@@ -169,4 +182,4 @@ if they have been modified since the last backup.
 
 == Upgrade Notice ==
 
-* Updates to the backup monitor, new clear history and stop backup button and some bug fixes
+* Very important bugfix introduce in 0.9.3 - sorry guys!
