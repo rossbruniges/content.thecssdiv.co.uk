@@ -12,19 +12,12 @@
 			<div id="footer-2" class="footer-column">
 					<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'footer_4' ) ) : ?>
 				<div class="twitter-section">
-                    <h2>Latest tweet</h2>
-                	<p><?php aktt_latest_tweet(); ?></p>
-                    <p>For more of the same and to be the first to hear what I am up to follow me on twitter.</p>
-                    <a href="https://twitter.com/rossbruniges" class="twitter-follow-button" data-show-count="false">Follow @rossbruniges</a>
+                    <h2>Twitter</h2>
+                	<a class="twitter-timeline" href="https://twitter.com/rossbruniges" data-widget-id="279716266414051328">Tweets by @rossbruniges</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    
                 			</div>
 				<?php endif; ?>
-					<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'footer_3' ) ) : ?>
-					<h2 class="widgettitle"><?php _e( 'Find me at...', 'linen' ); ?></h2>
-					<script src="http://cdn.lanyrd.net/badges/person-v1.min.js"></script>
-					<div class="lanyrd-target-splat"><a href="http://lanyrd.com/people/rossbruniges/" class="lanyrd-splat lanyrd-number-2 lanyrd-context-future lanyrd-type-tracking" rel="me">My conferences on Lanyrd</a></div>
-				<?php endif; ?>
-
 			</div>
 			<div id="footer-3" class="footer-column">
 			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'footer_2' ) ) : ?>

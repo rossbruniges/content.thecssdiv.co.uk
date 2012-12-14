@@ -27,6 +27,11 @@
 ?>
 				</ul>
 		    </li>
+		    <li class="widget">
+		        <h2 class="widgettitle"><?php _e( 'Find me at...', 'linen' ); ?></h2>
+				<script src="http://cdn.lanyrd.net/badges/person-v1.min.js"></script>
+				<div class="lanyrd-target-splat"><a href="http://lanyrd.com/people/rossbruniges/" class="lanyrd-splat lanyrd-number-2 lanyrd-context-future lanyrd-type-tracking" rel="me">My conferences on Lanyrd</a></div>
+		    </li>
 			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar( 'sidebar_1' ) ) : ?>
 				<li class="widget widget_recent_entries">
 					<h2 class="widgettitle"><?php _e( 'Recent Articles', 'linen' ); ?></h2>
