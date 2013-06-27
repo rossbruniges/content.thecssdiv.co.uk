@@ -106,3 +106,15 @@ div.photo_frame img {
 .alert p:last-child {
     margin-bottom: 0;
 }
+
+.widget .lanyrd-target-splat {
+    margin-top: 15px;
+}
+
+.lanyrd-listing .vevent h3 {
+    font-size: 1.4em;
+}
+
+.lanyrd-splat {
+    font-size: 1.2em;
+}
